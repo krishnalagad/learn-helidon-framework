@@ -40,7 +40,7 @@ public class Main {
 
             WebServer server = WebServer.builder()
                     .config(config.get("server"))
-                    .routing("/dept", routing -> DepartmentController.initRoutes(routing, departmentService))
+                    .routing(routing -> DepartmentController.initRoutes(routing, departmentService))
                     .build()
                     .start();
 
