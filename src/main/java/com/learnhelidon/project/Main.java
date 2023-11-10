@@ -15,10 +15,6 @@ import io.helidon.webserver.http.HttpRouting;
 
 import java.sql.Connection;
 
-
-/**
- * The application main class.
- */
 public class Main {
 
     private Main() {
