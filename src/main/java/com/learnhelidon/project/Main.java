@@ -40,7 +40,7 @@ public class Main {
                     .build()
                     .start();
 
-            System.out.println("WEB server is up! http://localhost:" + server.port() + "/dept");
+            System.out.println("WEB server is up! http://localhost:" + server.port() + "/");
         } catch (Exception e) {
             e.printStackTrace();
             throw new RuntimeException(e);
