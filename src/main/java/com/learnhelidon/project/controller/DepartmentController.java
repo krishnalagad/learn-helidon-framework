@@ -23,11 +23,6 @@ public class DepartmentController {
 
     public static void initRoutes(HttpRouting.Builder router, DepartmentService departmentService) {
         DepartmentController controller = new DepartmentController(departmentService);
-        router.register("/greet", new HttpService() {
-            @Override
-            public void routing(HttpRules httpRules) {
-                httpRules.get("/", controller::findAll);
-            }
-        });
+        router.get("/", controller::findAll);
     }
 }
