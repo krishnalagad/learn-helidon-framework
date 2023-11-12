@@ -21,10 +21,17 @@ public class DepartmentController {
         response.send(allDepartments);
     }
 
+    public void create(ServerRequest request, ServerResponse response) {
+        Department department = request.content().as(Department.class);
+        Department savedDept = this.departmentService.createDepartment(department);
+        response.send(savedDept);
+    }
+
     // -------------------------------------------------Routes Initialization-------------------------------------------
 
     public static void initRoutes(HttpRouting.Builder router, DepartmentService departmentService) {
         DepartmentController controller = new DepartmentController(departmentService);
         router.get("/", controller::findAll);
+        router.post("/", controller::create);
     }
 }
