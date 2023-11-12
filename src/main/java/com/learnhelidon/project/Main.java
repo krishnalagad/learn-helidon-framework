@@ -8,6 +8,7 @@ import com.learnhelidon.project.repository.DepartmentRepository;
 import com.learnhelidon.project.repository.DepartmentRepositoryImpl;
 import com.learnhelidon.project.service.DepartmentService;
 import com.learnhelidon.project.service.impl.DepartmentServiceImpl;
+import io.helidon.http.media.spi.MediaSupportProvider;
 import io.helidon.logging.common.LogConfig;
 import io.helidon.config.Config;
 import io.helidon.webserver.WebServer;
