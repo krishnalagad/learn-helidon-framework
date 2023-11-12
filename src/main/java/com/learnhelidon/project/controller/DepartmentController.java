@@ -2,9 +2,6 @@ package com.learnhelidon.project.controller;
 
 import com.learnhelidon.project.entity.Department;
 import com.learnhelidon.project.service.DepartmentService;
-import io.helidon.common.config.Config;
-import io.helidon.common.media.type.MediaTypes;
-import io.helidon.http.media.jsonp.JsonpSupport;
 import io.helidon.webserver.http.HttpRouting;
 import io.helidon.webserver.http.ServerRequest;
 import io.helidon.webserver.http.ServerResponse;
