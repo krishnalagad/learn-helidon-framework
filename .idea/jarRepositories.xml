@@ -7,6 +7,16 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="helidon-maven-snapshot-repository" />
+      <option name="name" value="helidon-maven-snapshot-repository" />
+      <option name="url" value="https://maven.helidon.io/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="helidon-maven-repository" />
+      <option name="name" value="helidon-maven-repository" />
+      <option name="url" value="https://maven.helidon.io/maven2/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />

@@ -48,6 +48,10 @@
             <groupId>io.helidon.http.media</groupId>
             <artifactId>helidon-http-media-jsonp</artifactId>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>io.helidon</groupId>-->
+<!--            <artifactId>helidon-webserver-media</artifactId>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>io.helidon.webserver.observe</groupId>
             <artifactId>helidon-webserver-observe-metrics</artifactId>
